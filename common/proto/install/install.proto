@@ -1,0 +1,83 @@
+syntax = "proto3";
+
+package install;
+
+message InstallConfig {
+    string internalUrl = 32;
+
+    string dbConnectionType = 1;
+    string dbTCPHostname = 2;
+    string dbTCPPort = 3;
+    string dbTCPName = 4;
+    string dbTCPUser = 5;
+    string dbTCPPassword = 6;
+    string dbSocketFile = 7;
+    string dbSocketName = 8;
+    string dbSocketUser = 9;
+    string dbSocketPassword = 10;
+    string dbManualDSN = 11;
+    string dsName = 12;
+    string dsPort = 13;
+    string dsFolder = 14;
+    string externalMicro = 15;
+    string externalGateway = 16;
+    string externalWebsocket = 17;
+    string externalFrontPlugins = 18;
+    string externalDAV = 19;
+    string externalWOPI = 20;
+    string externalDex = 21;
+    string externalDexID = 22;
+    string externalDexSecret = 23;
+    string frontendHosts = 24;
+    string frontendLogin = 25;
+    string frontendPassword = 26;
+    string frontendRepeatPassword = 27;
+    string frontendApplicationTitle = 28;
+    string frontendDefaultLanguage = 33;
+    bool   licenseRequired = 29;
+    string licenseString = 30;
+    repeated CheckResult CheckResults = 31;
+}
+
+message CheckResult{
+    string Name = 1;
+    bool Success = 2;
+    string JsonResult = 3;
+}
+
+message PerformCheckRequest {
+    string Name = 1;
+    InstallConfig Config = 2;
+}
+
+message PerformCheckResponse {
+    CheckResult Result = 1;
+}
+
+message GetDefaultsRequest {
+}
+
+message GetDefaultsResponse {
+    InstallConfig config = 1;
+}
+
+message GetAgreementRequest {
+}
+
+message GetAgreementResponse {
+    string Text = 1;
+}
+
+message InstallRequest {
+    InstallConfig config = 1;
+}
+
+message InstallResponse {
+    bool success = 1;
+}
+
+service Install {
+    rpc GetDefaults(GetDefaultsRequest) returns (GetDefaultsResponse);
+    rpc Install(InstallRequest) returns (InstallResponse);
+    rpc PerformCheck(PerformCheckRequest) returns (PerformCheckResponse);
+}
