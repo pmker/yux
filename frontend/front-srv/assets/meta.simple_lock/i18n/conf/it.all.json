@@ -1,8 +1,0 @@
-{
-  "Manual Locking mechanism to avoid concurrent edition": {
-    "other": "Meccanismo di blocco manuale per prevenire modifiche concorrenziali"
-  },
-  "Simple Lock": {
-    "other": "Lock Semplice"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "Manual Locking mechanism to avoid concurrent edition": {
-    "other": "Manuální uzamykací mechanismus pro zabránění souběžných úprav"
-  },
-  "Simple Lock": {
-    "other": "Jednoduchý zámek"
-  }
-}

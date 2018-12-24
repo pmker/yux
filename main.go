@@ -27,9 +27,9 @@ import (
 	_ "github.com/pmker/yux/discovery/consul"
 	_ "github.com/pmker/yux/discovery/nats"
 
-	//_ "github.com/pmker/yux/discovery/config/grpc"
-	//_ "github.com/pmker/yux/discovery/config/rest"
-	//_ "github.com/pmker/yux/discovery/install/rest"
+	_ "github.com/pmker/yux/discovery/config/grpc"
+	_ "github.com/pmker/yux/discovery/config/rest"
+	_ "github.com/pmker/yux/discovery/install/rest"
 	//_ "github.com/pmker/yux/discovery/update/grpc"
 	//_ "github.com/pmker/yux/discovery/update/rest"
 	//
