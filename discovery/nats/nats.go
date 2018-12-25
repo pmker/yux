@@ -32,7 +32,7 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"github.com/pmker/yux/common/log"
+	"github.com/pydio/cells/common/log"
 )
 
 var hd *server.Server

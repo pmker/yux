@@ -27,7 +27,7 @@ import (
 	"github.com/golang/protobuf/ptypes/any"
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/pmker/yux/common/service/proto"
+	"github.com/pydio/cells/common/service/proto"
 )
 
 type fakeConverter struct{}

@@ -27,8 +27,8 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/proto/mailer"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/proto/mailer"
 )
 
 var (

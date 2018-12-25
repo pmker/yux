@@ -8,8 +8,8 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/config"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/config"
 )
 
 type Plugin interface {

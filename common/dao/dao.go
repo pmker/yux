@@ -22,7 +22,7 @@
 package dao
 
 import (
-	"github.com/pmker/yux/common"
+	"github.com/pydio/cells/common"
 )
 
 // DAO interface definition

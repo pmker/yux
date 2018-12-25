@@ -26,8 +26,8 @@ import (
 
 	"github.com/go-openapi/errors"
 
-	"github.com/pmker/yux/broker/log"
-	proto "github.com/pmker/yux/common/proto/log"
+	"github.com/pydio/cells/broker/log"
+	proto "github.com/pydio/cells/common/proto/log"
 )
 
 // Handler is the gRPC interface for the log service.

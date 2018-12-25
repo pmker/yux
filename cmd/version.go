@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/pmker/yux/common"
+	"github.com/pydio/cells/common"
 	"github.com/spf13/cobra"
 )
 

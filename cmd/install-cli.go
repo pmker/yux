@@ -32,12 +32,12 @@ import (
 	_ "github.com/mholt/caddy/caddyhttp"
 	"github.com/spf13/cobra"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/proto/install"
-	"github.com/pmker/yux/common/utils"
-	"github.com/pmker/yux/discovery/install/lib"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/proto/install"
+	"github.com/pydio/cells/common/utils"
+	"github.com/pydio/cells/discovery/install/lib"
 )
 
 func notEmpty(input string) error {

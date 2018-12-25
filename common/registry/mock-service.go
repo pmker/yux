@@ -25,7 +25,7 @@ import (
 	"regexp"
 
 	"github.com/micro/go-micro/registry"
-	"github.com/pmker/yux/common"
+	"github.com/pydio/cells/common"
 )
 
 type mockService struct {

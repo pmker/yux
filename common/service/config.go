@@ -27,8 +27,8 @@ import (
 	"github.com/micro/go-micro"
 	"github.com/micro/go-micro/server"
 
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/service/context"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/service/context"
 )
 
 func newConfigProvider(service micro.Service) error {

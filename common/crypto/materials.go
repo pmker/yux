@@ -26,7 +26,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/pmker/yux/common/proto/encryption"
+	"github.com/pydio/cells/common/proto/encryption"
 )
 
 // AESGCMMaterials ...

@@ -26,10 +26,10 @@ import (
 	"strings"
 
 	micro "github.com/micro/go-micro"
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/micro"
-	"github.com/pmker/yux/common/registry"
-	proto "github.com/pmker/yux/common/service/proto"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/micro"
+	"github.com/pydio/cells/common/registry"
+	proto "github.com/pydio/cells/common/service/proto"
 	"github.com/spf13/cobra"
 )
 

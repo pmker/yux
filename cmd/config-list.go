@@ -28,7 +28,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cobra"
 
-	"github.com/pmker/yux/common/config"
+	"github.com/pydio/cells/common/config"
 )
 
 // listCmd represents the list command

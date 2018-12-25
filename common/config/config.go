@@ -26,7 +26,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/pmker/yux/common/config/file"
+	"github.com/pydio/cells/common/config/file"
 	"github.com/spf13/cast"
 )
 

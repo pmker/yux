@@ -2,8 +2,8 @@ syntax = "proto3";
 
 package rest;
 
-import "github.com/pmker/yux/common/proto/activity/activitystream.proto";
-import "github.com/pmker/yux/common/proto/log/log.proto";
+import "github.com/pydio/cells/common/proto/activity/activitystream.proto";
+import "github.com/pydio/cells/common/proto/log/log.proto";
 
 // Collection of Activities
 message ActivitiesCollection {

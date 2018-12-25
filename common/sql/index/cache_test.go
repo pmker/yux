@@ -34,11 +34,11 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/pmker/yux/common/dao"
-	"github.com/pmker/yux/common/proto/tree"
-	"github.com/pmker/yux/common/service/context"
-	"github.com/pmker/yux/common/sql"
-	"github.com/pmker/yux/common/utils"
+	"github.com/pydio/cells/common/dao"
+	"github.com/pydio/cells/common/proto/tree"
+	"github.com/pydio/cells/common/service/context"
+	"github.com/pydio/cells/common/sql"
+	"github.com/pydio/cells/common/utils"
 )
 
 var (

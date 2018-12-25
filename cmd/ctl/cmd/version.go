@@ -26,7 +26,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/pmker/yux/common"
+	"github.com/pydio/cells/common"
 )
 
 // versionCmd represents the versioning command

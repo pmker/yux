@@ -45,7 +45,7 @@ package update
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import tree "github.com/pmker/yux/common/proto/tree"
+import tree "github.com/pydio/cells/common/proto/tree"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

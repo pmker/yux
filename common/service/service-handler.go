@@ -5,7 +5,7 @@ import (
 
 	"github.com/golang/protobuf/ptypes/empty"
 
-	proto "github.com/pmker/yux/common/service/proto"
+	proto "github.com/pydio/cells/common/service/proto"
 )
 
 // StatusHandler provides functionality for getting the status of a service

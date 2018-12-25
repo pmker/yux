@@ -29,10 +29,10 @@ import (
 	"github.com/micro/go-web"
 	"github.com/spf13/pflag"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/dao"
-	"github.com/pmker/yux/common/registry"
-	"github.com/pmker/yux/common/service/frontend"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/dao"
+	"github.com/pydio/cells/common/registry"
+	"github.com/pydio/cells/common/service/frontend"
 )
 
 type dependency struct {

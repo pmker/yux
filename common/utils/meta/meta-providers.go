@@ -6,11 +6,11 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/proto/tree"
-	"github.com/pmker/yux/common/registry"
-	"github.com/pmker/yux/common/micro"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/proto/tree"
+	"github.com/pydio/cells/common/registry"
+	"github.com/pydio/cells/common/micro"
 )
 
 type MetaProviderCloser func()

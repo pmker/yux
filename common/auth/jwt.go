@@ -36,15 +36,15 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/oauth2"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/auth/claim"
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/micro"
-	"github.com/pmker/yux/common/proto/auth"
-	"github.com/pmker/yux/common/proto/idm"
-	"github.com/pmker/yux/common/proto/rest"
-	"github.com/pmker/yux/common/service/proto"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/auth/claim"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/micro"
+	"github.com/pydio/cells/common/proto/auth"
+	"github.com/pydio/cells/common/proto/idm"
+	"github.com/pydio/cells/common/proto/rest"
+	"github.com/pydio/cells/common/service/proto"
 )
 
 // Config is the config format for the main application.

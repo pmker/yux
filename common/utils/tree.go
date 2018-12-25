@@ -26,8 +26,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/proto/tree"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/proto/tree"
 )
 
 // BuildAncestorsList uses ListNodes with Ancestors flag set to build the list of parent nodes.

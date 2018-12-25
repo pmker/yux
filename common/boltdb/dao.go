@@ -23,8 +23,8 @@ package boltdb
 
 import (
 	"github.com/boltdb/bolt"
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/dao"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/dao"
 )
 
 // DAO defines the functions specific to the boltdb dao

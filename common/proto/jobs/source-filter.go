@@ -24,9 +24,9 @@ import (
 	"strings"
 
 	"github.com/micro/protobuf/ptypes"
-	"github.com/pmker/yux/common/proto/idm"
-	"github.com/pmker/yux/common/proto/tree"
-	service "github.com/pmker/yux/common/service/proto"
+	"github.com/pydio/cells/common/proto/idm"
+	"github.com/pydio/cells/common/proto/tree"
+	service "github.com/pydio/cells/common/service/proto"
 )
 
 func (n *SourceFilter) Filter(input ActionMessage) ActionMessage {

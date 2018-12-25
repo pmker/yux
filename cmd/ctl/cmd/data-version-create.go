@@ -27,9 +27,9 @@ import (
 	uuid2 "github.com/pborman/uuid"
 	"github.com/spf13/cobra"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/proto/tree"
-	"github.com/pmker/yux/common/micro"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/proto/tree"
+	"github.com/pydio/cells/common/micro"
 )
 
 var versionCreateUUID string

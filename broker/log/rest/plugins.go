@@ -22,9 +22,9 @@
 package rest
 
 import (
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/service"
-	"github.com/pmker/yux/common/plugins"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/service"
+	"github.com/pydio/cells/common/plugins"
 )
 
 func init() {

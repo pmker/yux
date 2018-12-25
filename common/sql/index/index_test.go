@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/proto/tree"
-	"github.com/pmker/yux/common/service/context"
-	"github.com/pmker/yux/common/sql"
-	"github.com/pmker/yux/common/utils"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/proto/tree"
+	"github.com/pydio/cells/common/service/context"
+	"github.com/pydio/cells/common/sql"
+	"github.com/pydio/cells/common/utils"
 )
 
 var (

@@ -30,9 +30,9 @@ import (
 	"strings"
 
 	"github.com/boltdb/bolt"
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/boltdb"
-	"github.com/pmker/yux/common/proto/activity"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/boltdb"
+	"github.com/pydio/cells/common/proto/activity"
 )
 
 type boltdbimpl struct {

@@ -27,8 +27,8 @@ import (
 	"github.com/micro/go-micro/client"
 	"github.com/pydio/minio-go"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/proto/tree"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/proto/tree"
 )
 
 // RouterOptions holds configuration flags to pass to a routeur constructor easily.

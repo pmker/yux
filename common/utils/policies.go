@@ -27,10 +27,10 @@ import (
 
 	"github.com/micro/go-micro/metadata"
 
-	"github.com/pmker/yux/common/auth/claim"
-	"github.com/pmker/yux/common/proto/idm"
-	"github.com/pmker/yux/common/proto/tree"
-	"github.com/pmker/yux/common/service/context"
+	"github.com/pydio/cells/common/auth/claim"
+	"github.com/pydio/cells/common/proto/idm"
+	"github.com/pydio/cells/common/proto/tree"
+	"github.com/pydio/cells/common/service/context"
 )
 
 const (

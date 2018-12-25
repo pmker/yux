@@ -27,9 +27,9 @@ import (
 	"github.com/sendgrid/sendgrid-go"
 	"github.com/sendgrid/sendgrid-go/helpers/mail"
 
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/proto/mailer"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/proto/mailer"
 )
 
 // SendGrid is a passerelle to Sendgrid API. It holds the application API Key.

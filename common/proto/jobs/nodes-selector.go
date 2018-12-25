@@ -28,8 +28,8 @@ import (
 	"github.com/micro/go-micro/client"
 	"github.com/micro/protobuf/ptypes"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/proto/tree"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/proto/tree"
 )
 
 func contains(slice []string, value string, prefix bool, lower bool) bool {

@@ -21,6 +21,6 @@
 // Package render provides helper for rendering activies into various formats (currently markdown).
 package render
 
-import "github.com/pmker/yux/common/proto/activity"
+import "github.com/pydio/cells/common/proto/activity"
 
 type ActivityRenderer func(object *activity.Object) string

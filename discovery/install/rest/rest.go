@@ -26,10 +26,10 @@ import (
 	"github.com/emicklei/go-restful"
 	"go.uber.org/zap"
 
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/proto/install"
-	"github.com/pmker/yux/common/service"
-	"github.com/pmker/yux/discovery/install/lib"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/proto/install"
+	"github.com/pydio/cells/common/service"
+	"github.com/pydio/cells/discovery/install/lib"
 )
 
 // Handler to the REST requests

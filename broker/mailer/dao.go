@@ -30,10 +30,10 @@ import (
 
 	"github.com/micro/go-micro/errors"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/proto/mailer"
-	"github.com/pmker/yux/common/service/context"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/proto/mailer"
+	"github.com/pydio/cells/common/service/context"
 )
 
 type Queue interface {

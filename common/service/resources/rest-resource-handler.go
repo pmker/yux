@@ -29,9 +29,9 @@ import (
 	"github.com/ory/ladon"
 	"github.com/ory/ladon/manager/memory"
 
-	"github.com/pmker/yux/common/auth"
-	"github.com/pmker/yux/common/proto/rest"
-	"github.com/pmker/yux/common/service/proto"
+	"github.com/pydio/cells/common/auth"
+	"github.com/pydio/cells/common/proto/rest"
+	"github.com/pydio/cells/common/service/proto"
 )
 
 // Signature for a function that can load policies from a given resource

@@ -29,10 +29,10 @@ import (
 	micro "github.com/micro/go-micro"
 	"github.com/spf13/cobra"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/registry"
-	"github.com/pmker/yux/common/service"
-	"github.com/pmker/yux/common/micro"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/registry"
+	"github.com/pydio/cells/common/service"
+	"github.com/pydio/cells/common/micro"
 )
 
 var (

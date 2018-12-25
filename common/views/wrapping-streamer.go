@@ -24,7 +24,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/pmker/yux/common/proto/tree"
+	"github.com/pydio/cells/common/proto/tree"
 )
 
 type WrappingStreamer struct {

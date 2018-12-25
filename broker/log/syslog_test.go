@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/proto/log"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/proto/log"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

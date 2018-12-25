@@ -30,11 +30,11 @@ import (
 	"sync"
 
 	"github.com/pborman/uuid"
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/dao"
-	"github.com/pmker/yux/common/proto/tree"
-	commonsql "github.com/pmker/yux/common/sql"
-	"github.com/pmker/yux/common/utils"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/dao"
+	"github.com/pydio/cells/common/proto/tree"
+	commonsql "github.com/pydio/cells/common/sql"
+	"github.com/pydio/cells/common/utils"
 )
 
 var (

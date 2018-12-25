@@ -25,9 +25,9 @@ import (
 
 	"github.com/hashicorp/consul/agent"
 	"github.com/hashicorp/consul/agent/config"
-	"github.com/pmker/yux/cmd"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/plugins"
+	"github.com/pydio/cells/cmd"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/plugins"
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 )

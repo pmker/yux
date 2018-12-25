@@ -26,10 +26,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/pmker/yux/common/dao"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/proto/idm"
-	"github.com/pmker/yux/common/sql/resources"
+	"github.com/pydio/cells/common/dao"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/proto/idm"
+	"github.com/pydio/cells/common/sql/resources"
 )
 
 type PoliciesCleanerOptions struct {

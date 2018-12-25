@@ -3,7 +3,7 @@ package frontend
 import (
 	"net/http"
 
-	"github.com/pmker/yux/common/config"
+	"github.com/pydio/cells/common/config"
 	config2 "github.com/pydio/go-os/config"
 )
 

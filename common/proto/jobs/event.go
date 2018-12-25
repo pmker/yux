@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pmker/yux/common/proto/tree"
+	"github.com/pydio/cells/common/proto/tree"
 )
 
 // NodeChangeEventName builds a simple string from a given event type

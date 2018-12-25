@@ -25,7 +25,7 @@ import (
 
 	"github.com/micro/go-micro/client"
 	"github.com/micro/go-micro/errors"
-	"github.com/pmker/yux/common"
+	"github.com/pydio/cells/common"
 )
 
 type StreamerMock struct{}

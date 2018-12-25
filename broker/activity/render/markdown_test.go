@@ -27,7 +27,7 @@ import (
 	. "github.com/smartystreets/goconvey/convey"
 
 	"github.com/pborman/uuid"
-	"github.com/pmker/yux/common/proto/activity"
+	"github.com/pydio/cells/common/proto/activity"
 )
 
 func TestMarkdown(t *testing.T) {

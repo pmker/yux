@@ -26,7 +26,7 @@ import (
 	"github.com/blevesearch/bleve"
 	"github.com/rs/xid"
 
-	"github.com/pmker/yux/common/proto/log"
+	"github.com/pydio/cells/common/proto/log"
 )
 
 // SyslogServer is the syslog specific implementation of the Log server

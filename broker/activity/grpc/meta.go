@@ -27,12 +27,12 @@ import (
 	"github.com/micro/go-micro/metadata"
 	"go.uber.org/zap"
 
-	activity "github.com/pmker/yux/broker/activity"
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/log"
-	activity2 "github.com/pmker/yux/common/proto/activity"
-	"github.com/pmker/yux/common/proto/tree"
-	"github.com/pmker/yux/common/service/context"
+	activity "github.com/pydio/cells/broker/activity"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/log"
+	activity2 "github.com/pydio/cells/common/proto/activity"
+	"github.com/pydio/cells/common/proto/tree"
+	"github.com/pydio/cells/common/service/context"
 )
 
 type MetaProvider struct {

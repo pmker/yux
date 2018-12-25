@@ -26,7 +26,7 @@ import (
 	"github.com/micro/go-log"
 	"github.com/spf13/cobra"
 
-	"github.com/pmker/yux/common/registry"
+	"github.com/pydio/cells/common/registry"
 )
 
 // servicesDepsCmd shows dependencies between services.

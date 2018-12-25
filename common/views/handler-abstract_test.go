@@ -28,7 +28,7 @@ import (
 	"github.com/pkg/errors"
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/pmker/yux/common/proto/tree"
+	"github.com/pydio/cells/common/proto/tree"
 	"github.com/pydio/minio-go"
 )
 

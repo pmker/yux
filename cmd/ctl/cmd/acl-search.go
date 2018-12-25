@@ -28,10 +28,10 @@ import (
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/spf13/cobra"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/micro"
-	"github.com/pmker/yux/common/proto/idm"
-	service "github.com/pmker/yux/common/service/proto"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/micro"
+	"github.com/pydio/cells/common/proto/idm"
+	service "github.com/pydio/cells/common/service/proto"
 )
 
 // searchCmd represents the search command

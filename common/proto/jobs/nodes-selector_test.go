@@ -27,8 +27,8 @@ import (
 	"github.com/micro/protobuf/ptypes"
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/pmker/yux/common/proto/tree"
-	"github.com/pmker/yux/common/service/proto"
+	"github.com/pydio/cells/common/proto/tree"
+	"github.com/pydio/cells/common/service/proto"
 )
 
 func TestNodesSelector_Filter(t *testing.T) {

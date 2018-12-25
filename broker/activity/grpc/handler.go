@@ -24,10 +24,10 @@ import (
 	"fmt"
 	"sync"
 
-	activity "github.com/pmker/yux/broker/activity"
-	"github.com/pmker/yux/common/log"
-	proto "github.com/pmker/yux/common/proto/activity"
-	"github.com/pmker/yux/common/service/context"
+	activity "github.com/pydio/cells/broker/activity"
+	"github.com/pydio/cells/common/log"
+	proto "github.com/pydio/cells/common/proto/activity"
+	"github.com/pydio/cells/common/service/context"
 	"go.uber.org/zap"
 	"golang.org/x/net/context"
 )

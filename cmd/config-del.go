@@ -27,7 +27,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/pmker/yux/common/config"
+	"github.com/pydio/cells/common/config"
 )
 
 // delCmd represents the delete command

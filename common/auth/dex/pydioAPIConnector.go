@@ -32,11 +32,11 @@ import (
 	"github.com/sirupsen/logrus"
 	"go.uber.org/zap"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/micro"
-	"github.com/pmker/yux/common/proto/idm"
-	proto "github.com/pmker/yux/common/service/proto"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/micro"
+	"github.com/pydio/cells/common/proto/idm"
+	proto "github.com/pydio/cells/common/service/proto"
 )
 
 type ApiConfig struct {

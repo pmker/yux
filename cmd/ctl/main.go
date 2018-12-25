@@ -22,11 +22,11 @@
 package main
 
 import (
-	"github.com/pmker/yux/cmd/ctl/cmd"
-	"github.com/pmker/yux/common"
+	"github.com/pydio/cells/cmd/ctl/cmd"
+	"github.com/pydio/cells/common"
 
-	_ "github.com/pmker/yux/discovery/consul"
-	_ "github.com/pmker/yux/discovery/nats"
+	_ "github.com/pydio/cells/discovery/consul"
+	_ "github.com/pydio/cells/discovery/nats"
 )
 
 func main() {

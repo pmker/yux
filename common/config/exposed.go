@@ -1,6 +1,6 @@
 package config
 
-import "github.com/pmker/yux/common"
+import "github.com/pydio/cells/common"
 
 var (
 	exposedConfigs map[string]common.XMLSerializableForm

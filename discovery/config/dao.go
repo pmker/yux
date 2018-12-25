@@ -22,8 +22,8 @@
 package config
 
 import (
-	"github.com/pmker/yux/common/dao"
-	"github.com/pmker/yux/common/sql"
+	"github.com/pydio/cells/common/dao"
+	"github.com/pydio/cells/common/sql"
 )
 
 type DAO interface {

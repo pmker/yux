@@ -28,9 +28,9 @@ import (
 	"github.com/micro/go-micro/errors"
 	"github.com/pborman/uuid"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/boltdb"
-	"github.com/pmker/yux/common/proto/chat"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/boltdb"
+	"github.com/pydio/cells/common/proto/chat"
 )
 
 type boltdbimpl struct {

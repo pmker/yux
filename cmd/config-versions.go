@@ -33,8 +33,8 @@ import (
 	"github.com/yudai/gojsondiff"
 	"github.com/yudai/gojsondiff/formatter"
 
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/config/file"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/config/file"
 )
 
 var (

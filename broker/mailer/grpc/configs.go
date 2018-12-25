@@ -21,9 +21,9 @@
 package grpc
 
 import (
-	"github.com/pmker/yux/broker/mailer/lang"
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/forms"
+	"github.com/pydio/cells/broker/mailer/lang"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/forms"
 )
 
 func init() {

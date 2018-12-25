@@ -20,7 +20,7 @@
 
 package config
 
-import "github.com/pmker/yux/common/sql"
+import "github.com/pydio/cells/common/sql"
 
 var (
 	daos = make(map[string]sql.DAO)

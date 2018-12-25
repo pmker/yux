@@ -27,7 +27,7 @@ import (
 	"github.com/micro/go-micro"
 	"github.com/micro/go-micro/server"
 
-	"github.com/pmker/yux/common/service/context"
+	"github.com/pydio/cells/common/service/context"
 )
 
 func newLogProvider(service micro.Service) error {

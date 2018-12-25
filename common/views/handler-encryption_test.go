@@ -27,7 +27,7 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/pmker/yux/common/proto/tree"
+	"github.com/pydio/cells/common/proto/tree"
 )
 
 // TODO these tests are currently broken and should be repaired.

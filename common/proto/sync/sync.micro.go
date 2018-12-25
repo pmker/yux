@@ -36,7 +36,7 @@ package sync
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/pmker/yux/common/proto/jobs"
+import _ "github.com/pydio/cells/common/proto/jobs"
 
 import (
 	client "github.com/micro/go-micro/client"

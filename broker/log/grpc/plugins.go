@@ -25,13 +25,13 @@ import (
 	"path"
 
 	micro "github.com/micro/go-micro"
-	"github.com/pmker/yux/common/plugins"
+	"github.com/pydio/cells/common/plugins"
 
-	"github.com/pmker/yux/broker/log"
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/config"
-	proto "github.com/pmker/yux/common/proto/log"
-	"github.com/pmker/yux/common/service"
+	"github.com/pydio/cells/broker/log"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/config"
+	proto "github.com/pydio/cells/common/proto/log"
+	"github.com/pydio/cells/common/service"
 )
 
 func init() {

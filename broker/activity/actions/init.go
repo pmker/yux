@@ -21,7 +21,7 @@
 // Package actions provides a scheduler action for generating mail digests
 package actions
 
-import "github.com/pmker/yux/scheduler/actions"
+import "github.com/pydio/cells/scheduler/actions"
 
 func init() {
 

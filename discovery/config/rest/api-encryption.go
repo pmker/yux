@@ -23,10 +23,10 @@ package rest
 import (
 	"github.com/emicklei/go-restful"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/proto/encryption"
-	"github.com/pmker/yux/common/service"
-	"github.com/pmker/yux/common/micro"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/proto/encryption"
+	"github.com/pydio/cells/common/service"
+	"github.com/pydio/cells/common/micro"
 )
 
 /****************************

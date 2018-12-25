@@ -6,10 +6,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/utils/i18n"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/utils/i18n"
 )
 
 type BackendConf struct {

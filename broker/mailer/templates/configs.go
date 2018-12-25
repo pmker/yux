@@ -27,8 +27,8 @@ import (
 
 	"strings"
 
-	"github.com/pmker/yux/broker/mailer/lang"
-	"github.com/pmker/yux/common/config"
+	"github.com/pydio/cells/broker/mailer/lang"
+	"github.com/pydio/cells/common/config"
 )
 
 type ApplicationConfigs struct {

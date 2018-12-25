@@ -25,7 +25,7 @@ import (
 
 	"github.com/nicksnyder/go-i18n/i18n"
 
-	i18n2 "github.com/pmker/yux/common/utils/i18n"
+	i18n2 "github.com/pydio/cells/common/utils/i18n"
 )
 
 // Should reflect the frontend Form definitions

@@ -27,8 +27,8 @@ import (
 
 	"github.com/micro/go-micro/metadata"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/auth/claim"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/auth/claim"
 )
 
 func NewBasicAuthenticator(realm string, ttl time.Duration) *BasicAuthenticator {

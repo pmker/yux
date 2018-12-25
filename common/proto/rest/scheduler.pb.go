@@ -6,7 +6,7 @@ package rest
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import jobs "github.com/pmker/yux/common/proto/jobs"
+import jobs "github.com/pydio/cells/common/proto/jobs"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

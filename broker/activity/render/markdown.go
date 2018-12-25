@@ -26,8 +26,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/pmker/yux/broker/activity/lang"
-	"github.com/pmker/yux/common/proto/activity"
+	"github.com/pydio/cells/broker/activity/lang"
+	"github.com/pydio/cells/common/proto/activity"
 )
 
 type ServerUrlType string

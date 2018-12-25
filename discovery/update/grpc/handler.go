@@ -32,14 +32,14 @@ import (
 	"github.com/pborman/uuid"
 	"go.uber.org/zap"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/proto/jobs"
-	"github.com/pmker/yux/common/proto/update"
-	"github.com/pmker/yux/common/service/context"
-	"github.com/pmker/yux/common/utils"
-	update2 "github.com/pmker/yux/discovery/update"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/proto/jobs"
+	"github.com/pydio/cells/common/proto/update"
+	"github.com/pydio/cells/common/service/context"
+	"github.com/pydio/cells/common/utils"
+	update2 "github.com/pydio/cells/discovery/update"
 )
 
 type Handler struct{}

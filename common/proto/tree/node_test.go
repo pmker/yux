@@ -25,7 +25,7 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/pmker/yux/common"
+	"github.com/pydio/cells/common"
 )
 
 func TestNodeMeta(t *testing.T) {

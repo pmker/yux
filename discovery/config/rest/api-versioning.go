@@ -25,15 +25,15 @@ import (
 
 	"github.com/emicklei/go-restful"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/proto/docstore"
-	"github.com/pmker/yux/common/proto/rest"
-	"github.com/pmker/yux/common/proto/tree"
-	"github.com/pmker/yux/common/service"
-	"github.com/pmker/yux/common/micro"
-	"github.com/pmker/yux/common/utils/i18n"
-	"github.com/pmker/yux/discovery/config/lang"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/proto/docstore"
+	"github.com/pydio/cells/common/proto/rest"
+	"github.com/pydio/cells/common/proto/tree"
+	"github.com/pydio/cells/common/service"
+	"github.com/pydio/cells/common/micro"
+	"github.com/pydio/cells/common/utils/i18n"
+	"github.com/pydio/cells/discovery/config/lang"
 )
 
 /****************************

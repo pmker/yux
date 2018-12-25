@@ -37,14 +37,14 @@ import (
 
 	"net"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/micro"
-	"github.com/pmker/yux/common/proto/object"
-	"github.com/pmker/yux/common/registry"
-	"github.com/pmker/yux/common/service/context"
-	"github.com/pmker/yux/common/utils"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/micro"
+	"github.com/pydio/cells/common/proto/object"
+	"github.com/pydio/cells/common/registry"
+	"github.com/pydio/cells/common/service/context"
+	"github.com/pydio/cells/common/utils"
 )
 
 func WithMicroChildrenRunner(parentName string, childrenPrefix string, cleanEndpointBeforeDelete bool, afterDeleteListener func(context.Context, string)) ServiceOption {

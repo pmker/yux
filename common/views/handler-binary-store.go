@@ -31,10 +31,10 @@ import (
 	"github.com/pydio/minio-go"
 	"go.uber.org/zap"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/proto/tree"
-	context2 "github.com/pmker/yux/common/utils/context"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/proto/tree"
+	context2 "github.com/pydio/cells/common/utils/context"
 )
 
 type BinaryStoreHandler struct {

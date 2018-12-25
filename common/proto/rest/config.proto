@@ -2,9 +2,9 @@ syntax = "proto3";
 
 package rest;
 
-import "github.com/pmker/yux/common/proto/tree/tree.proto";
-import "github.com/pmker/yux/common/proto/object/object.proto";
-import "github.com/pmker/yux/common/proto/ctl/ctl.proto";
+import "github.com/pydio/cells/common/proto/tree/tree.proto";
+import "github.com/pydio/cells/common/proto/object/object.proto";
+import "github.com/pydio/cells/common/proto/ctl/ctl.proto";
 
 // Configuration message. Data is an Json representation of any value
 message Configuration{

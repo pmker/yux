@@ -25,17 +25,17 @@ import (
 	"context"
 
 	"github.com/micro/go-micro"
-	"github.com/pmker/yux/common/plugins"
+	"github.com/pydio/cells/common/plugins"
 	"go.uber.org/zap"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/micro"
-	"github.com/pmker/yux/common/proto/jobs"
-	"github.com/pmker/yux/common/proto/mailer"
-	"github.com/pmker/yux/common/service"
-	"github.com/pmker/yux/common/service/context"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/micro"
+	"github.com/pydio/cells/common/proto/jobs"
+	"github.com/pydio/cells/common/proto/mailer"
+	"github.com/pydio/cells/common/service"
+	"github.com/pydio/cells/common/service/context"
 )
 
 var (

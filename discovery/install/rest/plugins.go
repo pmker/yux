@@ -25,10 +25,10 @@ import (
 	"context"
 
 	"github.com/jcuga/golongpoll"
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/service"
-	"github.com/pmker/yux/common/plugins"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/service"
+	"github.com/pydio/cells/common/plugins"
 )
 
 var (

@@ -24,7 +24,7 @@ package lang
 import (
 	"github.com/gobuffalo/packr"
 
-	"github.com/pmker/yux/common/utils/i18n"
+	"github.com/pydio/cells/common/utils/i18n"
 )
 
 var (

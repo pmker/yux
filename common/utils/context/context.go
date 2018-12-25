@@ -8,7 +8,7 @@ import (
 	"github.com/micro/go-micro/metadata"
 	"golang.org/x/net/http/httpguts"
 
-	"github.com/pmker/yux/common"
+	"github.com/pydio/cells/common"
 )
 
 // MinioMetaFromContext prepares metadata for minio client, merging context medata

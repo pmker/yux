@@ -11,9 +11,9 @@ import (
 
 	"os"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/config/file"
-	"github.com/pmker/yux/common/crypto"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/config/file"
+	"github.com/pydio/cells/common/crypto"
 	"github.com/pydio/go-os/config"
 )
 

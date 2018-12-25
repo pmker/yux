@@ -6,8 +6,8 @@ package rest
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import tree "github.com/pmker/yux/common/proto/tree"
-import docstore "github.com/pmker/yux/common/proto/docstore"
+import tree "github.com/pydio/cells/common/proto/tree"
+import docstore "github.com/pydio/cells/common/proto/docstore"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

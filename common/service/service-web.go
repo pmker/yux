@@ -34,12 +34,12 @@ import (
 	"github.com/micro/go-web"
 	"github.com/pborman/uuid"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/micro"
-	"github.com/pmker/yux/common/proto/rest"
-	"github.com/pmker/yux/common/service/context"
-	"github.com/pmker/yux/common/service/frontend"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/micro"
+	"github.com/pydio/cells/common/proto/rest"
+	"github.com/pydio/cells/common/service/context"
+	"github.com/pydio/cells/common/service/frontend"
 )
 
 var (

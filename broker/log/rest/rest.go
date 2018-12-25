@@ -23,11 +23,11 @@ package rest
 import (
 	"github.com/emicklei/go-restful"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/proto/log"
-	"github.com/pmker/yux/common/proto/rest"
-	"github.com/pmker/yux/common/registry"
-	"github.com/pmker/yux/common/service"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/proto/log"
+	"github.com/pydio/cells/common/proto/rest"
+	"github.com/pydio/cells/common/registry"
+	"github.com/pydio/cells/common/service"
 )
 
 type Handler struct{}

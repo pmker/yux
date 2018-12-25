@@ -24,8 +24,8 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/ptypes/timestamp"
-	"github.com/pmker/yux/common/proto/activity"
-	"github.com/pmker/yux/common/proto/tree"
+	"github.com/pydio/cells/common/proto/activity"
+	"github.com/pydio/cells/common/proto/tree"
 )
 
 func DocumentActivity(author string, event *tree.NodeChangeEvent) (ac *activity.Object, detectedNode *tree.Node) {

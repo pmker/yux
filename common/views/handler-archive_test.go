@@ -26,8 +26,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/proto/tree"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/proto/tree"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

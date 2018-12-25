@@ -26,9 +26,9 @@ import (
 	"github.com/gobuffalo/packr"
 	"github.com/rubenv/sql-migrate"
 
-	"github.com/pmker/yux/common"
-	service "github.com/pmker/yux/common/service/proto"
-	"github.com/pmker/yux/common/sql"
+	"github.com/pydio/cells/common"
+	service "github.com/pydio/cells/common/service/proto"
+	"github.com/pydio/cells/common/sql"
 	"gopkg.in/doug-martin/goqu.v4"
 )
 

@@ -25,7 +25,7 @@ import (
 
 	"github.com/micro/go-micro/client"
 
-	service "github.com/pmker/yux/common/service/proto"
+	service "github.com/pydio/cells/common/service/proto"
 )
 
 type InputSelector interface {

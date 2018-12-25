@@ -28,9 +28,9 @@ import (
 	"go.uber.org/zap"
 	gomail "gopkg.in/gomail.v2"
 
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/proto/mailer"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/proto/mailer"
 )
 
 type Smtp struct {

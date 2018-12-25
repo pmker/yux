@@ -21,9 +21,9 @@
 package grpc
 
 import (
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/forms"
-	"github.com/pmker/yux/discovery/update/lang"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/forms"
+	"github.com/pydio/cells/discovery/update/lang"
 )
 
 var ExposedConfigs = &forms.Form{

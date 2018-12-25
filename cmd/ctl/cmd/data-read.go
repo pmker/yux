@@ -26,8 +26,8 @@ import (
 	"os"
 
 	"github.com/olekukonko/tablewriter"
-	"github.com/pmker/yux/common/proto/tree"
-	"github.com/pmker/yux/common/micro"
+	"github.com/pydio/cells/common/proto/tree"
+	"github.com/pydio/cells/common/micro"
 	"github.com/spf13/cobra"
 )
 

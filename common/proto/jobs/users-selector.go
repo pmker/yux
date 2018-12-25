@@ -27,9 +27,9 @@ import (
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/micro/go-micro/client"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/proto/idm"
-	"github.com/pmker/yux/common/service/proto"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/proto/idm"
+	"github.com/pydio/cells/common/service/proto"
 )
 
 func (u *UsersSelector) MultipleSelection() bool {

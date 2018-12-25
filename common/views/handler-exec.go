@@ -36,10 +36,10 @@ import (
 	"encoding/hex"
 
 	"github.com/micro/go-micro/metadata"
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/proto/tree"
-	context2 "github.com/pmker/yux/common/utils/context"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/proto/tree"
+	context2 "github.com/pydio/cells/common/utils/context"
 )
 
 type Executor struct {

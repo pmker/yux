@@ -33,9 +33,9 @@ import (
 
 	"github.com/krolaw/zipstream"
 	"github.com/micro/go-micro/errors"
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/proto/tree"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/proto/tree"
 	"go.uber.org/zap"
 )
 

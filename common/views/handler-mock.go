@@ -29,8 +29,8 @@ import (
 	"github.com/micro/go-micro/client"
 	"github.com/pydio/minio-go"
 
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/proto/tree"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/proto/tree"
 )
 
 func NewHandlerMock() *HandlerMock {

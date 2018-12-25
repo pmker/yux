@@ -28,7 +28,7 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/manifoldco/promptui"
-	"github.com/pmker/yux/common/config"
+	"github.com/pydio/cells/common/config"
 )
 
 // SslModeCmd permits configuration of used SSL mode.

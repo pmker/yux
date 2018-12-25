@@ -5,7 +5,7 @@ import (
 	"github.com/micro/go-micro/broker/http"
 	"github.com/micro/go-micro/client"
 	"github.com/micro/go-micro/server"
-	"github.com/pmker/yux/common/micro"
+	"github.com/pydio/cells/common/micro"
 	"github.com/spf13/viper"
 )
 

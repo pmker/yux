@@ -44,10 +44,10 @@ import (
 	"github.com/micro/go-plugins/client/grpc"
 	"github.com/micro/go-plugins/registry/nats"
 
-	"github.com/pmker/yux/common/proto/idm"
-	serviceproto "github.com/pmker/yux/common/service/proto"
+	"github.com/pydio/cells/common/proto/idm"
+	serviceproto "github.com/pydio/cells/common/service/proto"
 
-	"github.com/pmker/yux/common/utils"
+	"github.com/pydio/cells/common/utils"
 )
 
 const (

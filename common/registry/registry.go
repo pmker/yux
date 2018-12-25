@@ -29,8 +29,8 @@ import (
 
 	"github.com/gyuho/goraph"
 	"github.com/micro/go-micro/client"
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/micro"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/micro"
 	"github.com/spf13/pflag"
 )
 

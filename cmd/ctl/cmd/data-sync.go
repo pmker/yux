@@ -27,10 +27,10 @@ import (
 
 	"time"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/micro"
-	"github.com/pmker/yux/common/proto/sync"
-	context2 "github.com/pmker/yux/common/utils/context"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/micro"
+	"github.com/pydio/cells/common/proto/sync"
+	context2 "github.com/pydio/cells/common/utils/context"
 )
 
 var (

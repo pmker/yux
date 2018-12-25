@@ -35,10 +35,10 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/text/unicode/norm"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/proto/object"
-	"github.com/pmker/yux/common/proto/tree"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/proto/object"
+	"github.com/pydio/cells/common/proto/tree"
 )
 
 type PutHandler struct {

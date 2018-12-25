@@ -28,9 +28,9 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/pmker/yux/common/registry"
-	_ "github.com/pmker/yux/discovery/config/grpc"
-	_ "github.com/pmker/yux/discovery/nats"
+	"github.com/pydio/cells/common/registry"
+	_ "github.com/pydio/cells/discovery/config/grpc"
+	_ "github.com/pydio/cells/discovery/nats"
 )
 
 // This test fails because the call to registry.ListRunningServices()

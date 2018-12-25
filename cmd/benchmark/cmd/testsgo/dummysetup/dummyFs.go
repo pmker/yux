@@ -32,7 +32,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/pmker/yux/common/utils"
+	"github.com/pydio/cells/common/utils"
 )
 
 var (

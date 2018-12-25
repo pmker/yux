@@ -27,7 +27,7 @@ import (
 	"github.com/ghodss/yaml"
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/pmker/yux/common/proto/auth"
+	"github.com/pydio/cells/common/proto/auth"
 )
 
 var _ = yaml.YAMLToJSON

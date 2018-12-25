@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/pmker/yux/common"
+	"github.com/pydio/cells/common"
 )
 
 type (

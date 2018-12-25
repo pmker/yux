@@ -36,23 +36,23 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/plugins"
-	"github.com/pmker/yux/discovery/nats"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/plugins"
+	"github.com/pydio/cells/discovery/nats"
 
-	"github.com/pmker/yux/common/registry"
+	"github.com/pydio/cells/common/registry"
 
 	// All brokers
-	httpbroker "github.com/pmker/yux/common/micro/broker/http"
-	natsbroker "github.com/pmker/yux/common/micro/broker/nats"
+	httpbroker "github.com/pydio/cells/common/micro/broker/http"
+	natsbroker "github.com/pydio/cells/common/micro/broker/nats"
 
 	// All registries
-	consulregistry "github.com/pmker/yux/common/micro/registry/consul"
-	natsregistry "github.com/pmker/yux/common/micro/registry/nats"
+	consulregistry "github.com/pydio/cells/common/micro/registry/consul"
+	natsregistry "github.com/pydio/cells/common/micro/registry/nats"
 
 	// All transports
-	grpctransport "github.com/pmker/yux/common/micro/transport/grpc"
+	grpctransport "github.com/pydio/cells/common/micro/transport/grpc"
 )
 
 var (

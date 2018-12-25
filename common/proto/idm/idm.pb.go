@@ -72,8 +72,8 @@ package idm
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import service "github.com/pmker/yux/common/service/proto"
-import tree "github.com/pmker/yux/common/proto/tree"
+import service "github.com/pydio/cells/common/service/proto"
+import tree "github.com/pydio/cells/common/proto/tree"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

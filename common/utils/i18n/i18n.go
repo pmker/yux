@@ -28,9 +28,9 @@ import (
 	"github.com/emicklei/go-restful"
 	"github.com/pydio/go-os/config"
 
-	"github.com/pmker/yux/common/auth/claim"
-	"github.com/pmker/yux/common/proto/idm"
-	"github.com/pmker/yux/common/utils"
+	"github.com/pydio/cells/common/auth/claim"
+	"github.com/pydio/cells/common/proto/idm"
+	"github.com/pydio/cells/common/utils"
 )
 
 var (

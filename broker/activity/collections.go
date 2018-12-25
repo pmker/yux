@@ -25,12 +25,12 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/proto/activity"
-	"github.com/pmker/yux/common/proto/idm"
-	"github.com/pmker/yux/common/proto/tree"
-	"github.com/pmker/yux/common/utils"
-	"github.com/pmker/yux/common/views"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/proto/activity"
+	"github.com/pydio/cells/common/proto/idm"
+	"github.com/pydio/cells/common/proto/tree"
+	"github.com/pydio/cells/common/utils"
+	"github.com/pydio/cells/common/views"
 )
 
 var (

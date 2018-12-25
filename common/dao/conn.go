@@ -24,7 +24,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/pmker/yux/common"
+	"github.com/pydio/cells/common"
 )
 
 type conn struct{}

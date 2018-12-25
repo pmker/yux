@@ -24,9 +24,9 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/proto/install"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/proto/install"
 )
 
 type DexClient struct {

@@ -25,8 +25,8 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/micro/go-micro/errors"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/proto/rest"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/proto/rest"
 )
 
 type restErrorEmitter func(req *restful.Request, resp *restful.Response, err error)

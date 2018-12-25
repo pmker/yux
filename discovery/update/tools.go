@@ -42,11 +42,11 @@ import (
 	"github.com/micro/go-micro/errors"
 	"go.uber.org/zap"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/proto/update"
-	"github.com/pmker/yux/common/utils"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/proto/update"
+	"github.com/pydio/cells/common/utils"
 )
 
 // LoadUpdates will post a Json query to the update server to detect if there are any

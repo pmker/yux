@@ -28,9 +28,9 @@ import (
 	"github.com/micro/go-micro/client"
 	"github.com/micro/go-micro/errors"
 
-	"github.com/pmker/yux/common/proto/idm"
-	"github.com/pmker/yux/common/proto/tree"
-	"github.com/pmker/yux/common/utils"
+	"github.com/pydio/cells/common/proto/idm"
+	"github.com/pydio/cells/common/proto/tree"
+	"github.com/pydio/cells/common/utils"
 )
 
 type PathWorkspaceHandler struct {

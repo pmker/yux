@@ -1,6 +1,6 @@
 syntax="proto3";
 
-import "github.com/pmker/yux/common/proto/jobs/jobs.proto";
+import "github.com/pydio/cells/common/proto/jobs/jobs.proto";
 
 package rest;
 

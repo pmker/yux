@@ -21,7 +21,7 @@
 // Package benchmark is the main package for performing benchmarking requests
 package main
 
-import "github.com/pmker/yux/cmd/benchmark/cmd"
+import "github.com/pydio/cells/cmd/benchmark/cmd"
 
 func main() {
 	cmd.Execute()

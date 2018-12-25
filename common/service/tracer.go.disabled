@@ -7,7 +7,7 @@ import (
 	"github.com/micro/go-micro/registry"
 	"github.com/micro/go-plugins/trace/zipkin"
 	"github.com/pydio/go-os/trace"
-	"github.com/pmker/yux/common/config"
+	"github.com/pydio/cells/common/config"
 )
 
 func newTraceProvider(service micro.Service) error {

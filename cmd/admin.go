@@ -28,8 +28,8 @@ import (
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/spf13/cobra"
 
-	"github.com/pmker/yux/common/proto/idm"
-	service2 "github.com/pmker/yux/common/service/proto"
+	"github.com/pydio/cells/common/proto/idm"
+	service2 "github.com/pydio/cells/common/service/proto"
 )
 
 // userCmd represents the user command

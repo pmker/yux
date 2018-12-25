@@ -35,11 +35,11 @@ import (
 	"github.com/pydio/go-os/config/source/file"
 	"github.com/spf13/viper"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/config/envvar"
-	file2 "github.com/pmker/yux/common/config/file"
-	"github.com/pmker/yux/common/config/memory"
-	"github.com/pmker/yux/common/config/remote"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/config/envvar"
+	file2 "github.com/pydio/cells/common/config/file"
+	"github.com/pydio/cells/common/config/memory"
+	"github.com/pydio/cells/common/config/remote"
 )
 
 var (

@@ -20,7 +20,7 @@
 
 package config
 
-import "github.com/pmker/yux/common/sql"
+import "github.com/pydio/cells/common/sql"
 
 // Impl of the Mysql interface
 type sqlimpl struct {

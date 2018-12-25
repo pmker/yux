@@ -31,8 +31,8 @@ import (
 	"github.com/micro/go-micro/errors"
 
 	"github.com/pydio/minio-go"
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/proto/tree"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/proto/tree"
 )
 
 type UploadLimitFilter struct {

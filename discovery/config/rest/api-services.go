@@ -34,16 +34,16 @@ import (
 	"github.com/pborman/uuid"
 	"go.uber.org/zap"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/micro"
-	"github.com/pmker/yux/common/proto/ctl"
-	"github.com/pmker/yux/common/proto/object"
-	"github.com/pmker/yux/common/proto/rest"
-	"github.com/pmker/yux/common/proto/tree"
-	"github.com/pmker/yux/common/registry"
-	"github.com/pmker/yux/common/service"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/micro"
+	"github.com/pydio/cells/common/proto/ctl"
+	"github.com/pydio/cells/common/proto/object"
+	"github.com/pydio/cells/common/proto/rest"
+	"github.com/pydio/cells/common/proto/tree"
+	"github.com/pydio/cells/common/registry"
+	"github.com/pydio/cells/common/service"
 )
 
 /*********************

@@ -45,7 +45,7 @@ package update
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/pmker/yux/common/proto/tree"
+import _ "github.com/pydio/cells/common/proto/tree"
 
 import (
 	client "github.com/micro/go-micro/client"

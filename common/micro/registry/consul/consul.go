@@ -7,7 +7,7 @@ import (
 	"github.com/micro/go-micro/selector"
 	"github.com/micro/go-micro/selector/cache"
 	"github.com/micro/go-micro/server"
-	"github.com/pmker/yux/common/micro"
+	"github.com/pydio/cells/common/micro"
 	"github.com/spf13/viper"
 )
 

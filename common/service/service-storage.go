@@ -21,7 +21,7 @@
 package service
 
 import (
-	"github.com/pmker/yux/common/dao"
+	"github.com/pydio/cells/common/dao"
 )
 
 // WithStorage adds a storage handler to the current service

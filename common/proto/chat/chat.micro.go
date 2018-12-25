@@ -50,7 +50,7 @@ package chat
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/pmker/yux/common/proto/activity"
+import _ "github.com/pydio/cells/common/proto/activity"
 
 import (
 	client "github.com/micro/go-micro/client"

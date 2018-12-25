@@ -27,8 +27,8 @@ import (
 	"fmt"
 
 	"github.com/fatih/color"
-	"github.com/pmker/yux/common/proto/test"
-	"github.com/pmker/yux/common/micro"
+	"github.com/pydio/cells/common/proto/test"
+	"github.com/pydio/cells/common/micro"
 	"github.com/spf13/cobra"
 )
 

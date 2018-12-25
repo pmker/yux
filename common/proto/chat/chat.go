@@ -24,7 +24,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/pmker/yux/common"
+	"github.com/pydio/cells/common"
 )
 
 /* chat.go file enriches default generated proto structs with some custom pydio methods to ease development */

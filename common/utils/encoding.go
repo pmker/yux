@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/pmker/yux/common/proto/tree"
+	"github.com/pydio/cells/common/proto/tree"
 )
 
 // TreeNode definition

@@ -2,9 +2,9 @@ syntax = "proto3";
 
 package rest;
 
-import "github.com/pmker/yux/common/service/proto/common.proto";
-import "github.com/pmker/yux/common/proto/idm/idm.proto";
-import "github.com/pmker/yux/common/proto/tree/tree.proto";
+import "github.com/pydio/cells/common/service/proto/common.proto";
+import "github.com/pydio/cells/common/proto/idm/idm.proto";
+import "github.com/pydio/cells/common/proto/tree/tree.proto";
 
 // Group collected acls by subjects
 message CellAcl {

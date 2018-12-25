@@ -23,12 +23,12 @@ package grpc
 
 import (
 	"github.com/micro/go-micro"
-	"github.com/pmker/yux/common/plugins"
+	"github.com/pydio/cells/common/plugins"
 
-	"github.com/pmker/yux/broker/chat"
-	"github.com/pmker/yux/common"
-	proto "github.com/pmker/yux/common/proto/chat"
-	"github.com/pmker/yux/common/service"
+	"github.com/pydio/cells/broker/chat"
+	"github.com/pydio/cells/common"
+	proto "github.com/pydio/cells/common/proto/chat"
+	"github.com/pydio/cells/common/service"
 )
 
 func init() {

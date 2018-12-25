@@ -29,10 +29,10 @@ import (
 	"time"
 
 	"github.com/patrickmn/go-cache"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/proto/idm"
-	"github.com/pmker/yux/common/proto/tree"
-	"github.com/pmker/yux/common/utils"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/proto/idm"
+	"github.com/pydio/cells/common/proto/tree"
+	"github.com/pydio/cells/common/utils"
 )
 
 // Extended Router used mainly to filter events sent from inside to outside the application

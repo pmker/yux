@@ -29,9 +29,9 @@ import (
 
 	"encoding/json"
 
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/proto/install"
-	"github.com/pmker/yux/common/utils"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/proto/install"
+	"github.com/pydio/cells/common/utils"
 )
 
 type InstallProgressEvent struct {

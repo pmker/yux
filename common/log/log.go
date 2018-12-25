@@ -34,10 +34,10 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/auth/claim"
-	config2 "github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/service/context"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/auth/claim"
+	config2 "github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/service/context"
 	"gopkg.in/natefinch/lumberjack.v2"
 )
 

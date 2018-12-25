@@ -20,7 +20,7 @@
 
 package service
 
-import "github.com/pmker/yux/common"
+import "github.com/pydio/cells/common"
 
 // Helper for building ResourcePolicies lists
 type ResourcePoliciesBuilder struct {

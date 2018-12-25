@@ -35,14 +35,14 @@ import (
 	"github.com/micro/go-web"
 	"github.com/spf13/cobra"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/caddy"
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/micro"
-	"github.com/pmker/yux/common/registry"
-	"github.com/pmker/yux/common/service"
-	"github.com/pmker/yux/discovery/install/assets"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/caddy"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/micro"
+	"github.com/pydio/cells/common/registry"
+	"github.com/pydio/cells/common/service"
+	"github.com/pydio/cells/discovery/install/assets"
 )
 
 const (

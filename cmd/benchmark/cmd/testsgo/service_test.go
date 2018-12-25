@@ -43,7 +43,7 @@ import (
 	"github.com/micro/go-micro/client"
 	"github.com/micro/go-plugins/client/grpc"
 	"github.com/micro/go-plugins/registry/nats"
-	"github.com/pmker/yux/common/utils"
+	"github.com/pydio/cells/common/utils"
 )
 
 var (

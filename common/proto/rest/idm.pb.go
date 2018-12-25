@@ -6,8 +6,8 @@ package rest
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import idm "github.com/pmker/yux/common/proto/idm"
-import service "github.com/pmker/yux/common/service/proto"
+import idm "github.com/pydio/cells/common/proto/idm"
+import service "github.com/pydio/cells/common/service/proto"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

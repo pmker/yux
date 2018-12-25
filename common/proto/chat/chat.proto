@@ -2,7 +2,7 @@ syntax="proto3";
 
 package chat;
 
-import "github.com/pmker/yux/common/proto/activity/activitystream.proto";
+import "github.com/pydio/cells/common/proto/activity/activitystream.proto";
 
 enum RoomType {
     GLOBAL    = 0;

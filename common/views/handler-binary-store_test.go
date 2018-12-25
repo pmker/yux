@@ -26,8 +26,8 @@ import (
 	"testing"
 
 	"github.com/micro/go-micro/errors"
-	"github.com/pmker/yux/common/proto/object"
-	"github.com/pmker/yux/common/proto/tree"
+	"github.com/pydio/cells/common/proto/object"
+	"github.com/pydio/cells/common/proto/tree"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

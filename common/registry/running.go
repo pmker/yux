@@ -25,8 +25,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/micro"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/micro"
 )
 
 var (

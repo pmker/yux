@@ -29,12 +29,12 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/pmker/yux/common"
-	// commonlog "github.com/pmker/yux/common/log"
+	"github.com/pydio/cells/common"
+	// commonlog "github.com/pydio/cells/common/log"
 
 	// All registries
-	consulregistry "github.com/pmker/yux/common/micro/registry/consul"
-	natsregistry "github.com/pmker/yux/common/micro/registry/nats"
+	consulregistry "github.com/pydio/cells/common/micro/registry/consul"
+	natsregistry "github.com/pydio/cells/common/micro/registry/nats"
 
 	"log"
 )

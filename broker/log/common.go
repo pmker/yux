@@ -29,8 +29,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/proto/log"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/proto/log"
 )
 
 // MessageRepository exposes interface methods to manage the log messages provided by Pydio.

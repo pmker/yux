@@ -26,9 +26,9 @@ import (
 	uuid2 "github.com/pborman/uuid"
 	"github.com/spf13/cobra"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/proto/jobs"
-	"github.com/pmker/yux/common/micro"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/proto/jobs"
+	"github.com/pydio/cells/common/micro"
 )
 
 // metaCmd represents the meta command

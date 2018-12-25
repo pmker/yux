@@ -31,7 +31,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	i18n2 "github.com/pmker/yux/common/utils/i18n"
+	i18n2 "github.com/pydio/cells/common/utils/i18n"
 )
 
 type singleCounter struct {

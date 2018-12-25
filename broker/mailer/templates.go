@@ -23,7 +23,7 @@ package mailer
 import (
 	"github.com/matcornic/hermes"
 
-	"github.com/pmker/yux/common/proto/mailer"
+	"github.com/pydio/cells/common/proto/mailer"
 )
 
 func buildFromWelcomeTemplate(msg *mailer.Mail, to *mailer.User) error {

@@ -27,9 +27,9 @@ import (
 	"github.com/micro/go-micro/errors"
 	"github.com/pydio/minio-go"
 
-	"github.com/pmker/yux/common"
-	config2 "github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/proto/object"
+	"github.com/pydio/cells/common"
+	config2 "github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/proto/object"
 )
 
 func GetGenericStoreClient(ctx context.Context, storeNamespace string, microClient client.Client) (client *minio.Core, bucket string, e error) {

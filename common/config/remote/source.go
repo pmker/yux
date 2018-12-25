@@ -29,8 +29,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/micro"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/micro"
 	proto "github.com/pydio/config-srv/proto/config"
 	"github.com/pydio/go-os/config"
 

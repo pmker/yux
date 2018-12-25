@@ -22,7 +22,7 @@ package index
 import (
 	"testing"
 
-	"github.com/pmker/yux/common/utils"
+	"github.com/pydio/cells/common/utils"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

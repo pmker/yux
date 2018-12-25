@@ -30,7 +30,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/pmker/yux/common"
+	"github.com/pydio/cells/common"
 )
 
 /* This file provides helpers and shortcuts to ease development of tree.node related features.

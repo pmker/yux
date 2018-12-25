@@ -26,11 +26,11 @@ import (
 	"github.com/micro/go-micro"
 	"github.com/micro/go-micro/broker"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/micro"
-	"github.com/pmker/yux/common/service/context"
-	proto "github.com/pmker/yux/common/service/proto"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/micro"
+	"github.com/pydio/cells/common/service/context"
+	proto "github.com/pydio/cells/common/service/proto"
 )
 
 // WithMicro adds a micro service handler to the current service

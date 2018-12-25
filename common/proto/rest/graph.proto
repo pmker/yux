@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package rest;
 
-import "github.com/pmker/yux/common/proto/idm/idm.proto";
+import "github.com/pydio/cells/common/proto/idm/idm.proto";
 
 message UserStateRequest {
     string Segment = 1;

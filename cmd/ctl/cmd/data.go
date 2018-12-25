@@ -21,7 +21,7 @@
 package cmd
 
 import (
-	"github.com/pmker/yux/common/proto/idm"
+	"github.com/pydio/cells/common/proto/idm"
 	"github.com/spf13/cobra"
 )
 

@@ -25,8 +25,8 @@ import (
 
 	"github.com/micro/go-micro/errors"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/proto/tree"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/proto/tree"
 )
 
 func NewUuidDataSourceHandler() *UuidDataSourceHandler {

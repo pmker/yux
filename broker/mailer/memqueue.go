@@ -20,7 +20,7 @@
 
 package mailer
 
-import "github.com/pmker/yux/common/proto/mailer"
+import "github.com/pydio/cells/common/proto/mailer"
 
 type memQueue struct {
 	list []*mailer.Mail

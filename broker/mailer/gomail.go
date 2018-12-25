@@ -25,7 +25,7 @@ import (
 
 	"gopkg.in/gomail.v2"
 
-	"github.com/pmker/yux/common/proto/mailer"
+	"github.com/pydio/cells/common/proto/mailer"
 )
 
 // NewGomailMessage prepares a new Message to be sent.

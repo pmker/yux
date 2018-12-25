@@ -5,7 +5,7 @@ import (
 
 	"github.com/emicklei/go-restful"
 	"github.com/gorilla/sessions"
-	"github.com/pmker/yux/common/proto/rest"
+	"github.com/pydio/cells/common/proto/rest"
 )
 
 // RegistryModifier is a func type for dynamically filtering output of the registry

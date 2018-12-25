@@ -46,10 +46,10 @@ import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
 import google_protobuf "github.com/golang/protobuf/ptypes/any"
-import service "github.com/pmker/yux/common/service/proto"
-import tree "github.com/pmker/yux/common/proto/tree"
-import idm "github.com/pmker/yux/common/proto/idm"
-import activity "github.com/pmker/yux/common/proto/activity"
+import service "github.com/pydio/cells/common/service/proto"
+import tree "github.com/pydio/cells/common/proto/tree"
+import idm "github.com/pydio/cells/common/proto/idm"
+import activity "github.com/pydio/cells/common/proto/activity"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

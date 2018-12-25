@@ -24,7 +24,7 @@ package event
 import (
 	"context"
 
-	"github.com/pmker/yux/common/proto/tree"
+	"github.com/pydio/cells/common/proto/tree"
 )
 
 // EventWithContext structure

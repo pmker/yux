@@ -28,8 +28,8 @@ import (
 
 	"github.com/micro/go-micro/client"
 
-	"github.com/pmker/yux/common/proto/log"
-	"github.com/pmker/yux/common/micro"
+	"github.com/pydio/cells/common/proto/log"
+	"github.com/pydio/cells/common/micro"
 )
 
 type LogSyncer struct {

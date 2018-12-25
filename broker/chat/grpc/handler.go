@@ -27,11 +27,11 @@ import (
 	"github.com/micro/go-micro/client"
 	"go.uber.org/zap"
 
-	chat2 "github.com/pmker/yux/broker/chat"
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/proto/chat"
-	"github.com/pmker/yux/common/service/context"
+	chat2 "github.com/pydio/cells/broker/chat"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/proto/chat"
+	"github.com/pydio/cells/common/service/context"
 )
 
 type ChatHandler struct{}

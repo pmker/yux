@@ -29,13 +29,13 @@ import (
 	"github.com/emicklei/go-restful"
 	"go.uber.org/zap"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/auth/claim"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/proto/mailer"
-	"github.com/pmker/yux/common/registry"
-	"github.com/pmker/yux/common/service"
-	"github.com/pmker/yux/common/utils"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/auth/claim"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/proto/mailer"
+	"github.com/pydio/cells/common/registry"
+	"github.com/pydio/cells/common/service"
+	"github.com/pydio/cells/common/utils"
 )
 
 var (

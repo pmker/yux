@@ -2,8 +2,8 @@ syntax = "proto3";
 
 package rest;
 
-import "github.com/pmker/yux/common/service/proto/common.proto";
-import "github.com/pmker/yux/common/proto/tree/tree.proto";
+import "github.com/pydio/cells/common/service/proto/common.proto";
+import "github.com/pydio/cells/common/proto/tree/tree.proto";
 
 // A template node is representing a file or a folder
 message TemplateNode {

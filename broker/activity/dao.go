@@ -25,9 +25,9 @@
 package activity
 
 import (
-	"github.com/pmker/yux/common/boltdb"
-	"github.com/pmker/yux/common/dao"
-	"github.com/pmker/yux/common/proto/activity"
+	"github.com/pydio/cells/common/boltdb"
+	"github.com/pydio/cells/common/dao"
+	"github.com/pydio/cells/common/proto/activity"
 )
 
 type BoxName string

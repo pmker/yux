@@ -8,9 +8,9 @@ import (
 	"github.com/micro/go-config/reader"
 	"github.com/pborman/uuid"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/config/remote"
-	"github.com/pmker/yux/common/config/vault"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/config/remote"
+	"github.com/pydio/cells/common/config/vault"
 	"github.com/pydio/go-os/config"
 )
 

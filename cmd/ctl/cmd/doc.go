@@ -23,7 +23,7 @@ package cmd
 import (
 	"log"
 
-	"github.com/pmker/yux/common/utils"
+	"github.com/pydio/cells/common/utils"
 	"github.com/spf13/cobra"
 )
 

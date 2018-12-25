@@ -30,14 +30,14 @@ import (
 	"github.com/micro/go-micro/errors"
 	"go.uber.org/zap"
 
-	"github.com/pmker/yux/broker/mailer"
-	"github.com/pmker/yux/broker/mailer/templates"
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/forms"
-	"github.com/pmker/yux/common/log"
-	proto "github.com/pmker/yux/common/proto/mailer"
-	"github.com/pmker/yux/common/service/context"
+	"github.com/pydio/cells/broker/mailer"
+	"github.com/pydio/cells/broker/mailer/templates"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/forms"
+	"github.com/pydio/cells/common/log"
+	proto "github.com/pydio/cells/common/proto/mailer"
+	"github.com/pydio/cells/common/service/context"
 )
 
 type Handler struct {

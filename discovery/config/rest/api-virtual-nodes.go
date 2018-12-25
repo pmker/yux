@@ -24,12 +24,12 @@ import (
 	"github.com/emicklei/go-restful"
 
 	"github.com/golang/protobuf/jsonpb"
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/proto/docstore"
-	"github.com/pmker/yux/common/proto/rest"
-	"github.com/pmker/yux/common/proto/tree"
-	"github.com/pmker/yux/common/service"
-	"github.com/pmker/yux/common/micro"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/proto/docstore"
+	"github.com/pydio/cells/common/proto/rest"
+	"github.com/pydio/cells/common/proto/tree"
+	"github.com/pydio/cells/common/service"
+	"github.com/pydio/cells/common/micro"
 )
 
 /****************************

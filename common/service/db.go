@@ -28,10 +28,10 @@ import (
 	"github.com/micro/go-micro/server"
 	"go.uber.org/zap"
 
-	"github.com/pmker/yux/common/config"
-	"github.com/pmker/yux/common/dao"
-	"github.com/pmker/yux/common/log"
-	"github.com/pmker/yux/common/service/context"
+	"github.com/pydio/cells/common/config"
+	"github.com/pydio/cells/common/dao"
+	"github.com/pydio/cells/common/log"
+	"github.com/pydio/cells/common/service/context"
 )
 
 func newDBProvider(service micro.Service) error {

@@ -44,7 +44,7 @@ to quickly create a Cobra application.`,
 
 		fmt.Println("Unimplemented command")
 
-		// fp := "/Users/gregory/work/src/github.com/pmker/yux/common/proto/idm/idm.proto"
+		// fp := "/Users/gregory/work/src/github.com/pydio/cells/common/proto/idm/idm.proto"
 
 		// // fd := filepath.Dir(fp)
 		// // fpd := filepath.Dir(fd) // parent directory

@@ -31,7 +31,7 @@ import (
 
 	"github.com/boltdb/bolt"
 
-	"github.com/pmker/yux/common/proto/mailer"
+	"github.com/pydio/cells/common/proto/mailer"
 )
 
 const (

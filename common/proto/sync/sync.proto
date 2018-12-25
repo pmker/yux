@@ -2,7 +2,7 @@ syntax="proto3";
 
 package sync;
 
-import "github.com/pmker/yux/common/proto/jobs/jobs.proto";
+import "github.com/pydio/cells/common/proto/jobs/jobs.proto";
 
 
 service SyncEndpoint{

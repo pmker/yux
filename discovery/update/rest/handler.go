@@ -24,10 +24,10 @@ import (
 	"fmt"
 
 	"github.com/emicklei/go-restful"
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/proto/update"
-	"github.com/pmker/yux/common/service"
-	"github.com/pmker/yux/common/micro"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/proto/update"
+	"github.com/pydio/cells/common/service"
+	"github.com/pydio/cells/common/micro"
 )
 
 type Handler struct{}

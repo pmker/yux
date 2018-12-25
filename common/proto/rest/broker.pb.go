@@ -141,8 +141,8 @@ package rest
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import activity "github.com/pmker/yux/common/proto/activity"
-import log "github.com/pmker/yux/common/proto/log"
+import activity "github.com/pydio/cells/common/proto/activity"
+import log "github.com/pydio/cells/common/proto/log"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

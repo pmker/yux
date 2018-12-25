@@ -30,9 +30,9 @@ import (
 	"github.com/blevesearch/bleve/search/query"
 	"github.com/rs/xid"
 
-	"github.com/pmker/yux/common"
-	"github.com/pmker/yux/common/proto/log"
-	"github.com/pmker/yux/common/service/context"
+	"github.com/pydio/cells/common"
+	"github.com/pydio/cells/common/proto/log"
+	"github.com/pydio/cells/common/service/context"
 )
 
 // IndexableLog extends default log.LogMessage struct to add index specific methods
